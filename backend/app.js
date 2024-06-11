@@ -1,7 +1,7 @@
 const express=require("express");
 const app=express();
 const config=require("config");
-const port=config.get("connection.port");
+const port=config.get("your port number from config");
 const dbconn=require("./models/dbconn");
 const userRouters=require("./routes/userRoutes");
 const chatRoutes=require("./routes/chatRoutes");
