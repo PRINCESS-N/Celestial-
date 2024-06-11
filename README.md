@@ -50,7 +50,7 @@ Meet  Celestial Chat, where conversations transcend the ordinary. Our elegant an
 
 ## Usage
 
-- Open the application in your browser: `\your\url\given\when\you\run\frontendf`
+- Open the application in your browser: `\your\url\given\when\you\run\frontend`
 - Register a new account or log in with an existing account.
 - Start chatting with friends and enjoy the seamless experience!
 
