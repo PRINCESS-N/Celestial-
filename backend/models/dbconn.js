@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const url="mongodb://127.0.0.1/ChatApp";
+const url="your\url\to\your\database";
 function connection(){
     try{
         mongoose.connect(url);
