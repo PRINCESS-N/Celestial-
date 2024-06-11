@@ -1,5 +1,5 @@
 const {Server}=require("socket.io");
-const io=new Server({cors:"http://localhost:5173/"});
+const io=new Server({cors:"\url\of\your\react\app"});
 let onlineUsers=[]
 io.on("connection",(socket)=>{
     console.log("Established connection",socket.id);
@@ -29,5 +29,6 @@ io.on("connection",(socket)=>{
     })
     
 });
+// use a port different from the one used for the frontend and the backend
 io.listen(3000);
 
