@@ -179,6 +179,36 @@ body{
     font-size: 20px;
   }
   
+  .logo{
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .moving{
+    width: 20%;
+    height: 0.2cm;
+    border-radius: 5px;
+    background: rgb(15, 55, 128);
+    color: rgb(15, 55, 128);
+    animation: move 5s infinite;
+  }
+
+  @keyframes move{
+    20%{
+      margin-left: 20%;
+    }
+    40%{
+      margin-left: 40%;
+    }
+    60%{
+      margin-left: 60%;
+    }
+    80%{
+      margin-left: 80%
+    }
+    
+  }
+
   .mark-as-read {
     cursor: pointer;
     font-weight: 700;

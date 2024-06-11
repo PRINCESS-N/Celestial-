@@ -14,7 +14,7 @@ const Register = () => {
       >
         <Col xs={6}>
           <Stack gap={3}>
-          <h2>Welcome to <b>Celestial</b>  where stars connect.</h2>
+          <h2>Welcome to <b className="text-primary">Celestial</b>  where stars connect.</h2>
              
             <h3>Register</h3>
              
